@@ -46,8 +46,8 @@
 </template>
 
 <script setup lang="ts">
-import {computed, ref} from 'vue';
-import type {PivotCategory, PivotProduct, SortState} from '../types/table';
+import { computed, ref } from 'vue';
+import type { PivotCategory, PivotProduct, SortState } from '../types/table';
 
 interface SortedProduct {
     name: string;
